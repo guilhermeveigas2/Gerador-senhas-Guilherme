@@ -43,15 +43,15 @@ function geraSenha() {
     }
 
     if (checkbox[1].checked){
-        alfabeto = alfabeto = letrasMinusculas;
+        alfabeto = alfabeto + letrasMinusculas;
     }
 
     if (checkbox[2].checked){
-        alfabeto = alfabeto = numeros;
+        alfabeto = alfabeto + numeros;
     }
 
     if (checkbox[3].checked){
-        alfabeto = alfabeto = simbolos;
+        alfabeto = alfabeto + simbolos;
     }
 
 
